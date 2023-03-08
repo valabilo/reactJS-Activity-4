@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-text {
+  font-size: 20px;
+  align-self: center;
+}
+.Home {
+  font-size: 16px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+
+}
+.bg-image {
+  /* The image used */
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/05a76324-947e-453b-a628-8b2d759756fa/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  
+  /* Full height */
+  height: 80vh; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Contact {
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/05a76324-947e-453b-a628-8b2d759756fa/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD?quality=auto-medium&amp;format=auto");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.Cars {
+  background-image: url("./assets/modelS.png");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.car1 {
+  height: 80vh;
+}
